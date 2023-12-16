@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use ShaungBhone\FilamentMinipos\Commands\FilamentMiniposCommand;
+use ShaungBhone\FilamentMinipos\Testing\TestsFilamentMinipos;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ShaungBhone\FilamentMinipos\Commands\FilamentMiniposCommand;
-use ShaungBhone\FilamentMinipos\Testing\TestsFilamentMinipos;
 
 class FilamentMiniposServiceProvider extends PackageServiceProvider
 {
