@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ShaungBhone\FilamentMinipos\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentMiniposCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-minipos';
 
     public $description = 'My command';
 
